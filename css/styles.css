@@ -600,9 +600,9 @@ nav .toogle-btn i {
   height: 100%;
   position: relative;
 }
-.sect-bseller .img-cont::after {
+.sect-bseller .img-cont::before {
   content: "";
-  background: url(../../img/icons/bseller.svg);
+  background: url(../img/icons/bseller.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -611,6 +611,7 @@ nav .toogle-btn i {
   left: -50px;
   width: 160px;
   height: 160px;
+  z-index: 2;
   animation: bestSell 5s linear infinite alternate-reverse running;
 }
 
