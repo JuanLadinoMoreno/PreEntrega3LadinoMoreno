@@ -9,10 +9,7 @@ nav {
     padding: 10px 20px;
     z-index: 2;
 
-    // @include Tablet() {
-    //     // opacity: 0;
-    //     display: none;
-    // }
+
 
     ul {
         display: flex;
@@ -114,21 +111,7 @@ nav {
 
 
 
-// nav .nav-enlaces {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     /* width: 100%; */
-//     padding: 10px 5px;
-// }
 
-// nav .nav-enlaces a {
-//     color: var(--color-tercero);
-//     padding: 0 20px;
-//     font-family: var(--font-tercera);
-//     font-size: 18px;
-//     letter-spacing: 1px;
-// }
 
 
 .dropdown-menus {
@@ -164,27 +147,12 @@ nav {
              z-index: 2;
             @include dFlex(center, center, column nowrap);
 
-            // &::before {
-            //     content: '';
-            //     position: absolute;
-            //     top: 10px;
-            //     left: 0;
-            //     width: 80%;
-            //     height: 1px;
-
-            //     background: #FFF;
-
-
-            // }
+            
 
 
 
         }
     }
-
-    // @include Tablet() {
-    //     display: block;
-    // }
 
 }
 
